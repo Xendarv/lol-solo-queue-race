@@ -25,10 +25,7 @@ REGION_1 = "euw1"
 
 # Make sure it is SummonerName/TagLine
 SUMMONERS = [
-    #"SummonerName/TagLine",
-    "Xéndarv/EUW 1",
-    "Miyuki Shiba/EUW",
-    "Boυnce/EUW",
+    #"SummonerName/TagLine", the comma is important even on the last one
 ]
 
 DATA_FILE = "ranked_progress.xlsx"
@@ -183,3 +180,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
