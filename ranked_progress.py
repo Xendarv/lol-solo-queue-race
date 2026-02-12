@@ -1,14 +1,15 @@
 """
-League of Legends Ranked Progress Tracker
+LoL Ranked Tracker
 
-Small side project that tracks ranked Solo Queue progress for a few summoners.
-The goal is to make it easy to see progress over time, not to perfectly model MMR.
+A small personal script to track Solo Queue progress for a few friends in League of Legends. 
+The goal is just to see who’s climbing over time and have a simple visual reference.
 
-This pulls data from the Riot Games API, converts rank + LP into a rough numeric
-score, stores snapshots in an Excel file, and generates a simple progression chart.
+It grabs rank + LP data from the Riot Games API, converts it into a rough numeric score, 
+saves snapshots in an Excel file, and makes a basic progression chart.
 
 Author: Peter N
 """
+
 
 import os
 from datetime import date
@@ -180,4 +181,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 
